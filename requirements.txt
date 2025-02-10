@@ -1,0 +1,8 @@
+# requirements.txt
+Flask==2.3.2
+requests==2.31.0
+python-dotenv==1.0.0
+Flask-Limiter==2.8.1
+bleach==6.0.0
+pytest==7.4.2
+# If you plan to migrate to Firestore, you'd include firebase_admin==6.1.0

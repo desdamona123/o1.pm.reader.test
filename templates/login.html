@@ -1,0 +1,28 @@
+<!-- templates/login.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul>
+          {% for category, message in messages %}
+            <li style="color:red;">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <form method="POST" action="{{ url_for('main_bp.login') }}">
+        <label for="account_number">Account Number:</label>
+        <input type="text" name="account_number" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
