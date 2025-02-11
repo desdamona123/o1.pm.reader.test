@@ -1,0 +1,323 @@
+2025-02-10 20:50:26,147 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 20:50:26,148 INFO [33mPress CTRL+C to quit[0m
+2025-02-10 20:50:26,148 INFO  * Restarting with stat
+2025-02-10 20:50:26,318 WARNING  * Debugger is active!
+2025-02-10 20:50:26,327 INFO  * Debugger PIN: 349-968-266
+2025-02-10 20:50:53,588 INFO 127.0.0.1 - - [10/Feb/2025 20:50:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:50:53,696 INFO 127.0.0.1 - - [10/Feb/2025 20:50:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-10 20:50:53,697 INFO 127.0.0.1 - - [10/Feb/2025 20:50:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-10 20:50:53,850 INFO 127.0.0.1 - - [10/Feb/2025 20:50:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SAT2ThBNkQkQAw8tpBvN HTTP/1.1" 200 -
+2025-02-10 20:50:53,852 INFO 127.0.0.1 - - [10/Feb/2025 20:50:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-10 20:50:54,815 INFO 127.0.0.1 - - [10/Feb/2025 20:50:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-10 20:50:55,996 INFO 127.0.0.1 - - [10/Feb/2025 20:50:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:50:56,027 INFO 127.0.0.1 - - [10/Feb/2025 20:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:50:56,028 INFO 127.0.0.1 - - [10/Feb/2025 20:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:50:56,044 INFO 127.0.0.1 - - [10/Feb/2025 20:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:50:56,077 INFO 127.0.0.1 - - [10/Feb/2025 20:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=SAT2ThBNkQkQAw8tpBvN HTTP/1.1[0m" 304 -
+2025-02-10 20:50:56,156 INFO 127.0.0.1 - - [10/Feb/2025 20:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 20:53:09,198 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:53:09,251 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:53:09,253 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:53:09,282 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=SAT2ThBNkQkQAw8tpBvN HTTP/1.1[0m" 304 -
+2025-02-10 20:53:09,356 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 20:53:09,372 INFO 127.0.0.1 - - [10/Feb/2025 20:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:53:10,710 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:53:10,727 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:53:10,728 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:53:10,736 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:53:10,738 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=SAT2ThBNkQkQAw8tpBvN HTTP/1.1[0m" 304 -
+2025-02-10 20:53:10,815 INFO 127.0.0.1 - - [10/Feb/2025 20:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 20:53:58,209 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:53:58,250 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:53:58,252 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:53:58,285 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=SAT2ThBNkQkQAw8tpBvN HTTP/1.1[0m" 304 -
+2025-02-10 20:53:58,342 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 20:53:58,374 INFO 127.0.0.1 - - [10/Feb/2025 20:53:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:58:16,986 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 20:58:16,986 INFO [33mPress CTRL+C to quit[0m
+2025-02-10 20:58:16,987 INFO  * Restarting with stat
+2025-02-10 20:58:17,163 WARNING  * Debugger is active!
+2025-02-10 20:58:17,168 INFO  * Debugger PIN: 349-968-266
+2025-02-10 20:58:27,068 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:58:27,119 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:58:27,120 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:58:27,148 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=GQRhP4pzXZFRIo0Ttg44 HTTP/1.1" 200 -
+2025-02-10 20:58:27,207 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:58:27,301 INFO 127.0.0.1 - - [10/Feb/2025 20:58:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 20:59:11,201 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 20:59:11,236 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 20:59:11,236 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:59:11,261 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 20:59:11,266 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=GQRhP4pzXZFRIo0Ttg44 HTTP/1.1[0m" 304 -
+2025-02-10 20:59:11,357 INFO 127.0.0.1 - - [10/Feb/2025 20:59:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 21:02:20,929 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 21:02:20,929 INFO [33mPress CTRL+C to quit[0m
+2025-02-10 21:02:20,930 INFO  * Restarting with stat
+2025-02-10 21:02:21,117 WARNING  * Debugger is active!
+2025-02-10 21:02:21,123 INFO  * Debugger PIN: 349-968-266
+2025-02-10 21:03:00,706 INFO 127.0.0.1 - - [10/Feb/2025 21:03:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 21:03:00,764 INFO 127.0.0.1 - - [10/Feb/2025 21:03:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 21:03:00,770 INFO 127.0.0.1 - - [10/Feb/2025 21:03:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 21:03:00,872 INFO 127.0.0.1 - - [10/Feb/2025 21:03:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=c3Jdb7rdI6LXmXpgm1cf HTTP/1.1" 200 -
+2025-02-10 21:03:00,880 INFO 127.0.0.1 - - [10/Feb/2025 21:03:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 21:03:01,279 INFO 127.0.0.1 - - [10/Feb/2025 21:03:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 21:03:28,516 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-10 21:03:28,575 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 21:03:28,576 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 21:03:28,596 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=c3Jdb7rdI6LXmXpgm1cf HTTP/1.1[0m" 304 -
+2025-02-10 21:03:28,681 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 21:03:28,681 INFO 127.0.0.1 - - [10/Feb/2025 21:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 05:47:50,973 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 05:47:50,973 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 05:47:50,974 INFO  * Restarting with stat
+2025-02-11 05:47:51,195 WARNING  * Debugger is active!
+2025-02-11 05:47:51,207 INFO  * Debugger PIN: 349-968-266
+2025-02-11 05:48:08,981 INFO 127.0.0.1 - - [11/Feb/2025 05:48:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-11 05:48:09,455 INFO 127.0.0.1 - - [11/Feb/2025 05:48:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-11 05:48:09,534 INFO 127.0.0.1 - - [11/Feb/2025 05:48:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 05:48:09,537 INFO 127.0.0.1 - - [11/Feb/2025 05:48:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 05:48:09,634 INFO 127.0.0.1 - - [11/Feb/2025 05:48:09] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=u08zZ4y8y4fOcD7WsXkG HTTP/1.1" 200 -
+2025-02-11 05:48:09,666 INFO 127.0.0.1 - - [11/Feb/2025 05:48:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 05:52:41,992 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/__init__.py', reloading
+2025-02-11 05:52:42,060 INFO  * Restarting with stat
+2025-02-11 05:52:42,375 WARNING  * Debugger is active!
+2025-02-11 05:52:42,380 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:04:46,576 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:04:46,576 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:04:46,577 INFO  * Restarting with stat
+2025-02-11 06:04:46,749 WARNING  * Debugger is active!
+2025-02-11 06:04:46,754 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:04:53,125 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-11 06:04:53,188 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:04:53,195 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:04:53,212 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=JX1lC1H5hufZoj3mafu1 HTTP/1.1" 200 -
+2025-02-11 06:04:53,289 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:04:53,406 INFO 127.0.0.1 - - [11/Feb/2025 06:04:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:04:54,715 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-11 06:04:54,735 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:04:54,738 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:04:54,746 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:04:54,748 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=JX1lC1H5hufZoj3mafu1 HTTP/1.1[0m" 304 -
+2025-02-11 06:04:54,907 INFO 127.0.0.1 - - [11/Feb/2025 06:04:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:05:00,978 INFO 127.0.0.1 - - [11/Feb/2025 06:05:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:05:11,802 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-11 06:05:11,838 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:05:11,845 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:05:11,856 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:05:11,857 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=JX1lC1H5hufZoj3mafu1 HTTP/1.1[0m" 304 -
+2025-02-11 06:05:11,926 INFO 127.0.0.1 - - [11/Feb/2025 06:05:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:10:24,474 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:10:24,474 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:10:24,475 INFO  * Restarting with stat
+2025-02-11 06:10:24,655 WARNING  * Debugger is active!
+2025-02-11 06:10:24,661 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:10:28,796 INFO 127.0.0.1 - - [11/Feb/2025 06:10:28] "GET / HTTP/1.1" 200 -
+2025-02-11 06:11:01,276 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:11:01,313 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:01,314 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:11:01,354 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=uY8eKeqgz6iOLwTPH0zt HTTP/1.1" 200 -
+2025-02-11 06:11:01,416 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:01,508 INFO 127.0.0.1 - - [11/Feb/2025 06:11:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:11:08,819 INFO 127.0.0.1 - - [11/Feb/2025 06:11:08] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:11:08,868 INFO 127.0.0.1 - - [11/Feb/2025 06:11:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:11:08,871 INFO 127.0.0.1 - - [11/Feb/2025 06:11:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:08,885 INFO 127.0.0.1 - - [11/Feb/2025 06:11:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=uY8eKeqgz6iOLwTPH0zt HTTP/1.1[0m" 304 -
+2025-02-11 06:11:08,961 INFO 127.0.0.1 - - [11/Feb/2025 06:11:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:09,043 INFO 127.0.0.1 - - [11/Feb/2025 06:11:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:11:24,394 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:11:24,418 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:11:24,418 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:24,429 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:11:24,455 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=uY8eKeqgz6iOLwTPH0zt HTTP/1.1[0m" 304 -
+2025-02-11 06:11:24,533 INFO 127.0.0.1 - - [11/Feb/2025 06:11:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:16:26,290 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:16:26,341 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:16:26,343 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:16:26,363 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=uY8eKeqgz6iOLwTPH0zt HTTP/1.1[0m" 304 -
+2025-02-11 06:16:26,436 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:16:26,530 INFO 127.0.0.1 - - [11/Feb/2025 06:16:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:16:56,785 INFO 127.0.0.1 - - [11/Feb/2025 06:16:56] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:16:56,824 INFO 127.0.0.1 - - [11/Feb/2025 06:16:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:16:56,824 INFO 127.0.0.1 - - [11/Feb/2025 06:16:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:16:56,842 INFO 127.0.0.1 - - [11/Feb/2025 06:16:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=uY8eKeqgz6iOLwTPH0zt HTTP/1.1[0m" 304 -
+2025-02-11 06:16:56,921 INFO 127.0.0.1 - - [11/Feb/2025 06:16:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:16:57,009 INFO 127.0.0.1 - - [11/Feb/2025 06:16:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:17:21,712 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:17:21,712 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:17:21,713 INFO  * Restarting with stat
+2025-02-11 06:17:21,880 WARNING  * Debugger is active!
+2025-02-11 06:17:21,886 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:17:30,765 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-02-11 06:17:30,821 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-11 06:17:30,821 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:17:30,833 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=9mFa0vhhiUNWfznYX31D HTTP/1.1" 200 -
+2025-02-11 06:17:30,911 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-11 06:17:30,995 INFO 127.0.0.1 - - [11/Feb/2025 06:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-11 06:18:14,508 INFO User 1001 logged in.
+2025-02-11 06:18:14,509 INFO 127.0.0.1 - - [11/Feb/2025 06:18:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:18:14,519 INFO 127.0.0.1 - - [11/Feb/2025 06:18:14] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:18:39,053 ERROR API call error: 404 Client Error: Not Found for url: https://api.deepinfra.com/generate
+2025-02-11 06:18:39,061 INFO 127.0.0.1 - - [11/Feb/2025 06:18:39] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:18:39,070 INFO 127.0.0.1 - - [11/Feb/2025 06:18:39] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:19:07,121 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:19:07,121 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:19:07,122 INFO  * Restarting with stat
+2025-02-11 06:19:07,297 WARNING  * Debugger is active!
+2025-02-11 06:19:07,309 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:19:08,776 INFO User 1001 logged out.
+2025-02-11 06:19:08,778 INFO 127.0.0.1 - - [11/Feb/2025 06:19:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 06:19:08,788 INFO 127.0.0.1 - - [11/Feb/2025 06:19:08] "GET / HTTP/1.1" 200 -
+2025-02-11 06:19:15,181 INFO User 1001 logged in.
+2025-02-11 06:19:15,182 INFO 127.0.0.1 - - [11/Feb/2025 06:19:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:19:15,191 INFO 127.0.0.1 - - [11/Feb/2025 06:19:15] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:19:31,808 ERROR API call error: 404 Client Error: Not Found for url: https://api.deepinfra.com/generate
+2025-02-11 06:19:31,812 INFO 127.0.0.1 - - [11/Feb/2025 06:19:31] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:19:31,826 INFO 127.0.0.1 - - [11/Feb/2025 06:19:31] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:19:48,239 INFO User 1001 logged out.
+2025-02-11 06:19:48,240 INFO 127.0.0.1 - - [11/Feb/2025 06:19:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 06:19:48,255 INFO 127.0.0.1 - - [11/Feb/2025 06:19:48] "GET / HTTP/1.1" 200 -
+2025-02-11 06:19:52,864 INFO User 1001 logged in.
+2025-02-11 06:19:52,865 INFO 127.0.0.1 - - [11/Feb/2025 06:19:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:19:52,871 INFO 127.0.0.1 - - [11/Feb/2025 06:19:52] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:20:02,075 WARNING Disallowed words detected in theme: ['shit']
+2025-02-11 06:20:02,076 INFO 127.0.0.1 - - [11/Feb/2025 06:20:02] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:20:02,082 INFO 127.0.0.1 - - [11/Feb/2025 06:20:02] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:20:29,508 ERROR API call error: 404 Client Error: Not Found for url: https://api.deepinfra.com/generate
+2025-02-11 06:20:29,512 INFO 127.0.0.1 - - [11/Feb/2025 06:20:29] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:20:29,521 INFO 127.0.0.1 - - [11/Feb/2025 06:20:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:26:58,409 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:26:58,481 INFO  * Restarting with stat
+2025-02-11 06:26:58,803 WARNING  * Debugger is active!
+2025-02-11 06:26:58,808 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:27:08,143 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:27:08,184 INFO  * Restarting with stat
+2025-02-11 06:27:08,467 WARNING  * Debugger is active!
+2025-02-11 06:27:08,472 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:28:52,425 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:28:52,474 INFO  * Restarting with stat
+2025-02-11 06:28:52,767 WARNING  * Debugger is active!
+2025-02-11 06:28:52,777 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:33:37,516 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:33:37,580 INFO  * Restarting with stat
+2025-02-11 06:33:37,907 WARNING  * Debugger is active!
+2025-02-11 06:33:37,914 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:33:38,979 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:33:39,025 INFO  * Restarting with stat
+2025-02-11 06:33:39,204 WARNING  * Debugger is active!
+2025-02-11 06:33:39,208 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:34:09,331 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:34:09,370 INFO  * Restarting with stat
+2025-02-11 06:35:01,021 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:35:01,021 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:35:01,022 INFO  * Restarting with stat
+2025-02-11 06:35:01,195 WARNING  * Debugger is active!
+2025-02-11 06:35:01,201 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:35:07,840 INFO 127.0.0.1 - - [11/Feb/2025 06:35:07] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:35:15,349 INFO User 1001 logged out.
+2025-02-11 06:35:15,350 INFO 127.0.0.1 - - [11/Feb/2025 06:35:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 06:35:15,374 INFO 127.0.0.1 - - [11/Feb/2025 06:35:15] "GET / HTTP/1.1" 200 -
+2025-02-11 06:35:20,770 INFO User 1001 logged in.
+2025-02-11 06:35:20,770 INFO 127.0.0.1 - - [11/Feb/2025 06:35:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:35:20,776 INFO 127.0.0.1 - - [11/Feb/2025 06:35:20] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:35:38,021 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "[35m[1mPOST /generate-story HTTP/1.1[0m" 500 -
+2025-02-11 06:35:38,079 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "GET /generate-story?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-11 06:35:38,079 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "GET /generate-story?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-11 06:35:38,209 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "GET /generate-story?__debugger__=yes&cmd=resource&f=console.png&s=aJZkHocCf4HHpAXLnonD HTTP/1.1" 200 -
+2025-02-11 06:35:38,212 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "GET /generate-story?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-11 06:35:38,340 INFO 127.0.0.1 - - [11/Feb/2025 06:35:38] "GET /generate-story?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-11 06:41:24,823 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 06:41:24,888 INFO  * Restarting with stat
+2025-02-11 06:43:19,846 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 06:43:19,846 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 06:43:19,847 INFO  * Restarting with stat
+2025-02-11 06:43:20,018 WARNING  * Debugger is active!
+2025-02-11 06:43:20,022 INFO  * Debugger PIN: 349-968-266
+2025-02-11 06:43:26,502 INFO User 1001 logged out.
+2025-02-11 06:43:26,503 INFO 127.0.0.1 - - [11/Feb/2025 06:43:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 06:43:26,516 INFO 127.0.0.1 - - [11/Feb/2025 06:43:26] "GET / HTTP/1.1" 200 -
+2025-02-11 06:43:31,007 INFO User 1001 logged in.
+2025-02-11 06:43:31,008 INFO 127.0.0.1 - - [11/Feb/2025 06:43:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:43:31,016 INFO 127.0.0.1 - - [11/Feb/2025 06:43:31] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:43:51,873 INFO Story generated for user 1001 with theme 'test1'.
+2025-02-11 06:43:51,882 INFO 127.0.0.1 - - [11/Feb/2025 06:43:51] "POST /generate-story HTTP/1.1" 200 -
+2025-02-11 06:45:05,761 INFO 127.0.0.1 - - [11/Feb/2025 06:45:05] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:46:25,855 ERROR Failed to load JSON data: Extra data: line 46 column 9 (char 974)
+2025-02-11 06:46:36,323 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 06:46:36,325 INFO 127.0.0.1 - - [11/Feb/2025 06:46:36] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:46:36,339 INFO 127.0.0.1 - - [11/Feb/2025 06:46:36] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:52:04,315 INFO User 1001 logged out.
+2025-02-11 06:52:04,318 INFO 127.0.0.1 - - [11/Feb/2025 06:52:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 06:52:04,324 INFO 127.0.0.1 - - [11/Feb/2025 06:52:04] "GET / HTTP/1.1" 200 -
+2025-02-11 06:52:12,049 INFO User 1001 logged in.
+2025-02-11 06:52:12,051 INFO 127.0.0.1 - - [11/Feb/2025 06:52:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 06:52:12,060 INFO 127.0.0.1 - - [11/Feb/2025 06:52:12] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:52:33,254 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 06:52:33,257 INFO 127.0.0.1 - - [11/Feb/2025 06:52:33] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:52:33,277 INFO 127.0.0.1 - - [11/Feb/2025 06:52:33] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 06:52:58,905 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 06:52:58,909 INFO 127.0.0.1 - - [11/Feb/2025 06:52:58] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:53:03,449 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 06:53:03,451 INFO 127.0.0.1 - - [11/Feb/2025 06:53:03] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 06:53:03,465 INFO 127.0.0.1 - - [11/Feb/2025 06:53:03] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:08:11,111 INFO  * Detected change in '/Users/desloughreygrant3/Documents/repro.prompt.solo/app/routes.py', reloading
+2025-02-11 13:08:11,218 INFO  * Restarting with stat
+2025-02-11 13:08:11,534 WARNING  * Debugger is active!
+2025-02-11 13:08:11,546 INFO  * Debugger PIN: 349-968-266
+2025-02-11 13:08:19,126 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 13:08:19,126 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 13:08:19,127 INFO  * Restarting with stat
+2025-02-11 13:08:19,296 WARNING  * Debugger is active!
+2025-02-11 13:08:19,301 INFO  * Debugger PIN: 349-968-266
+2025-02-11 13:08:27,478 INFO User 1001 logged out.
+2025-02-11 13:08:27,479 INFO 127.0.0.1 - - [11/Feb/2025 13:08:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 13:08:27,502 INFO 127.0.0.1 - - [11/Feb/2025 13:08:27] "GET / HTTP/1.1" 200 -
+2025-02-11 13:08:32,520 INFO User 1001 logged in.
+2025-02-11 13:08:32,521 INFO 127.0.0.1 - - [11/Feb/2025 13:08:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 13:08:32,538 INFO 127.0.0.1 - - [11/Feb/2025 13:08:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:08:50,472 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 13:08:50,476 INFO 127.0.0.1 - - [11/Feb/2025 13:08:50] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 13:08:50,501 INFO 127.0.0.1 - - [11/Feb/2025 13:08:50] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:09:13,906 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 13:09:13,910 INFO 127.0.0.1 - - [11/Feb/2025 13:09:13] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 13:09:13,922 INFO 127.0.0.1 - - [11/Feb/2025 13:09:13] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:15:19,464 WARNING Disallowed words detected in theme: ['shit']
+2025-02-11 13:15:19,466 INFO 127.0.0.1 - - [11/Feb/2025 13:15:19] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 13:15:19,474 INFO 127.0.0.1 - - [11/Feb/2025 13:15:19] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:15:38,715 INFO Story generated for user 1001 with theme 'golf'.
+2025-02-11 13:15:38,725 INFO 127.0.0.1 - - [11/Feb/2025 13:15:38] "POST /generate-story HTTP/1.1" 200 -
+2025-02-11 13:15:48,930 INFO 127.0.0.1 - - [11/Feb/2025 13:15:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 13:16:06,207 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 13:16:06,212 INFO 127.0.0.1 - - [11/Feb/2025 13:16:06] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 13:16:06,250 INFO 127.0.0.1 - - [11/Feb/2025 13:16:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:02:18,541 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 16:02:18,541 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 16:02:18,542 INFO  * Restarting with stat
+2025-02-11 16:02:18,717 WARNING  * Debugger is active!
+2025-02-11 16:02:18,723 INFO  * Debugger PIN: 349-968-266
+2025-02-11 16:02:26,730 INFO User 1001 logged out.
+2025-02-11 16:02:26,731 INFO 127.0.0.1 - - [11/Feb/2025 16:02:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 16:02:26,743 INFO 127.0.0.1 - - [11/Feb/2025 16:02:26] "GET / HTTP/1.1" 200 -
+2025-02-11 16:02:32,678 INFO User 1001 logged in.
+2025-02-11 16:02:32,679 INFO 127.0.0.1 - - [11/Feb/2025 16:02:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 16:02:32,688 INFO 127.0.0.1 - - [11/Feb/2025 16:02:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:02:55,300 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 16:02:55,303 INFO 127.0.0.1 - - [11/Feb/2025 16:02:55] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 16:02:55,337 INFO 127.0.0.1 - - [11/Feb/2025 16:02:55] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:05:09,401 WARNING Disallowed words detected in theme: ['shit']
+2025-02-11 16:05:09,405 INFO 127.0.0.1 - - [11/Feb/2025 16:05:09] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 16:05:09,421 INFO 127.0.0.1 - - [11/Feb/2025 16:05:09] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:05:25,451 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 16:05:25,454 INFO 127.0.0.1 - - [11/Feb/2025 16:05:25] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 16:05:25,483 INFO 127.0.0.1 - - [11/Feb/2025 16:05:25] "GET /dashboard HTTP/1.1" 200 -

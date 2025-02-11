@@ -54,13 +54,6 @@ def dashboard():
 
 @main_bp.route('/generate-story', methods=['POST'])
 def generate_story():
-    """
-    Handle the story generation request.
-    1. Sanitize user input.
-    2. Check for disallowed words.
-    3. If clean, call DeepInfra API with PM-level constraints.
-    4. Display the generated story.
-    """
     if 'user' not in session:
         return redirect(url_for('main_bp.login'))
 
@@ -87,16 +80,19 @@ def generate_story():
         return redirect(url_for('main_bp.dashboard'))
 
     # Construct request to DeepInfra API
-    url = "https://api.deepinfra.com/generate"  # Example endpoint
+    url = "https://api.deepinfra.com/v1/openai/chat/completions"  # updated endpoint
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {cfg.DEEPINFRA_API_KEY}"
     }
     payload = {
-        "reading_level": "primary",
-        "max_vocabulary": "PM",
-        "max_words": requested_word_count,
-        "theme": theme
+        "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "messages": [
+            {
+                "role": "user",
+                "content": f"Generate a story with the theme '{theme}' using up to {requested_word_count} words. The story should be at a primary reading level with PM vocabulary."
+            }
+        ]
     }
 
     story_text = ""
@@ -104,9 +100,9 @@ def generate_story():
         response = requests.post(url, json=payload, headers=headers, timeout=10)
         response.raise_for_status()  # Raises HTTPError if status != 200
         story_data = response.json()
-        story_text = story_data.get('story', 'No story available.')
-        # In real usage, adjust based on actual DeepInfra API response fields
+        story_text = story_data.get("choices", [{}])[0].get("message", {}).get("content", "No story available.")
     except (requests.HTTPError, requests.ConnectionError, requests.Timeout) as e:
+        print(f"DeepInfra API error: {e}")  # Debug output
         flash("Failed to generate story. Please try again later.", "error")
         log_event(f"API call error: {e}", "ERROR")
         return redirect(url_for('main_bp.dashboard'))
@@ -117,7 +113,12 @@ def generate_story():
         "theme": theme,
         "content": story_text
     }
-    data['stories'].append(new_story)
+    user_account = session.get('user')
+    for user in data.get('users', []):
+        if user.get('account_number') == user_account:
+            user.setdefault('stories', [])
+            user['stories'].append(new_story)
+            break
     save_json_data(data)
 
     log_event(f"Story generated for user {session['user']} with theme '{theme}'.")

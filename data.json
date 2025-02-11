@@ -1,169 +1,40 @@
 {
-  "students": [
-    {
-      "name": "Emily",
-      "pm_level": 24,
-      "reading_percent": 0.96,
-      "spelling_percent": 1,
-      "reading_age": 8.5,
-      "word_reading_british_abilities": "7:4",
-      "letter_sounds": [
-        "y",
-        "th"
-      ],
-      "focus_words": [
-        "of",
-        "things"
-      ],
-      "vowels": [
-        "u"
-      ],
-      "closed_syllables": [
-        "lom",
-        "jad",
-        "jun"
-      ],
-      "stories": [
+    "users": [
         {
-          "title": "Notes",
-          "content": "General notes",
-          "date": "2024-03-01"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:25"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:26"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:27"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:30"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:31"
-        },
-        {
-          "title": "Error generating story. Please try again.",
-          "content": "Error generating story. Please try again.",
-          "date": "2025-02-08 19:32"
-        },
-        {
-          "title": "<think>",
-          "content": "<think>\nAlright, I need to write a 100-word story for a Level 24 reader. The focus is on using the words \"of\" and \"things\" with a football theme. First, I'll brainstorm some football scenarios that can naturally incorporate these words.\n\nMaybe a team environment where players are working together. \"Things\" could refer to strategies or teamwork. I want the title to include \"things\" and relate to football, something like \"The Things We Play For.\"\n\nNext, I need to structure the story. Introduce a team at practice, showing their determination. Use \"of\" in phrases like \"field of sweat.\" Then, highlight their trust, using \"things\" to mention strategies and teamwork.\n\nInclude dialogue to show interaction. The coach can encourage them to fight for their \"things,\" which are drive, trust, and each other. Conclude with how they play for these things, tying it all together.\n\nI'll make sure the vocabulary is appropriate for Level 24, using simple sentences and clear grammar. Let's piece it together, keeping each sentence concise and within the word limit.\n</think>\n\n**The Things We Play For**  \n\nThe team stood on the field of sweat, their eyes locked on the goal. They knew football was more than just a game\u2014it was about trust and teamwork. \"Remember, we play for the things that matter,\" their coach shouted.  \n\nThey passed the ball, moving like one. The defense was strong, the offense sharp. Each player did their part. \"We fight for our drive, our trust, and each other,\" the captain said.  \n\nAs the game ended, they high-fived, smiles wide. Football wasn\u2019t just a sport\u2014it was a lesson. They learned to play for the things that made them a team. And in that field of sweat, they found their strength.",
-          "date": "2025-02-08 19:42"
-        },
-        {
-          "title": "<think>",
-          "content": "<think>\nAlright, so the user has this query where they need to write a 100-word story for a Level 24 reader. They specified using the words \"of\" and \"things\" with a football theme, and they want a title included. Plus, they emphasized strict adherence to PM Level 24 vocabulary and grammar. \n\nHmm, first, I should think about what Level 24 entails. I know that PM readers are leveled according to difficulty, so Level 24 is probably for upper elementary or early middle school students. The vocabulary and grammar should be appropriate for that level\u2014so not too complex but still engaging.\n\nThe words \"of\" and \"things\" need to be incorporated naturally. I don't want them to feel forced. \"Things\" could refer to items or events, maybe related to football. \"Of\" can be used in phrases like \"the thing of the game\" or \"a team of young players.\"\n\nFootball theme-wise, I should focus on something relatable. Maybe a team overcoming challenges or a special event. A championship game sounds exciting and gives a clear plot point. Including teamwork or determination could add depth.\n\nFor the title, it should capture the essence of the story. Maybe something like \"The Thing of the Game\" since \"thing\" is one of the required words. It also hints at the importance or key moment in the game.\n\nNow, structuring the story: start by introducing the team and the big game. Use the word \"things\" when describing elements related to the game, like the items they prepare or the strategies they discuss. Make sure to include \"of\" in phrases that fit naturally, such as \"they worked of the strategies.\"\n\nIncluding some action without making it too complicated. A touchdown can be a climactic moment. Maybe a moment where possession is lost but then regained, showing determination. Finally, ending on a positive note with the team celebrating and talking about the championship things they'll do next week.\n\nI need to keep the word count tight\u2014around 100 words. Each sentence should be concise, using simple yet effective vocabulary. Avoiding any advanced grammar structures to stay true to Level 24.\n\nLet me put it all together, making sure each required word is there and the story flows smoothly. The title at the top, followed by the engaging narrative that hits all the user's points. Double-checking the word count and ensuring it's within 100 words. Everything seems to fit, so I'll finalize the story.\n</think>\n\n**The Thing of the Game**  \n\nIt was the biggest thing of the season. The football team had worked hard all week. They practiced of the things they needed to win. On game day, the field was full of energy. The crowd cheered for their team. The players ran onto the field with big smiles.  \n\nThe game started, and the team fought hard. They tackled, caught, and ran with speed. In the final minutes, they scored a touchdown! The crowd went wild. The team huddled together, shouting, \"We did it!\"  \n\nThat night, they talked of the things they had learned. They knew they would play better next time. But for now, they celebrated their big win. The thing of the game was teamwork, and they had done it together.",
-          "date": "2025-02-08 20:00"
+            "account_number": "1001",
+            "password": "1234",
+            "reading_percent": 0.96,
+            "spelling_percent": 1,
+            "reading_age": 8.5,
+            "word_reading_british_abilities": "7:4",
+            "letter_sounds": [
+                "y",
+                "th"
+            ],
+            "focus_words": [
+                "of",
+                "things"
+            ],
+            "vowels": [
+                "u"
+            ],
+            "closed_syllables": [
+                "lom",
+                "jad",
+                "jun"
+            ],
+            "stories": [
+                {
+                    "title": "Notes",
+                    "content": "General notes",
+                    "date": "2024-03-01"
+                },
+                {
+                    "user_account": "1001",
+                    "theme": "golf",
+                    "content": "No story available."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Oscar",
-      "pm_level": 8,
-      "reading_percent": 0.97,
-      "spelling_percent": 0,
-      "reading_age": 6,
-      "word_reading_british_abilities": "6:1",
-      "letter_sounds": [
-        "ch",
-        "ng"
-      ],
-      "focus_words": [
-        "any",
-        "where",
-        "for",
-        "these",
-        "which"
-      ],
-      "vowels": [
-        "i",
-        "u",
-        "a",
-        "o",
-        "e"
-      ],
-      "closed_syllables": [
-        "rot",
-        "wed",
-        "bun",
-        "lap",
-        "kit"
-      ],
-      "stories": [
-        {
-          "title": "Notes",
-          "content": "General notes",
-          "date": "2024-03-01"
-        }
-      ]
-    },
-    {
-      "name": "Maci",
-      "pm_level": 25,
-      "reading_percent": 0.98,
-      "spelling_percent": 0.73,
-      "reading_age": 10.2,
-      "word_reading_british_abilities": "8:3",
-      "letter_sounds": [
-        "ng"
-      ],
-      "focus_words": [],
-      "vowels": [],
-      "closed_syllables": [],
-      "stories": [
-        {
-          "title": "Notes",
-          "content": "General notes",
-          "date": "2024-03-01"
-        }
-      ]
-    },
-    {
-      "name": "Alfie",
-      "pm_level": 30,
-      "reading_percent": 0.98,
-      "spelling_percent": 0.96,
-      "reading_age": 10.2,
-      "word_reading_british_abilities": "8:9",
-      "letter_sounds": [
-        "qu",
-        "th",
-        "ng"
-      ],
-      "focus_words": [
-        "to",
-        "where"
-      ],
-      "vowels": [
-        "o"
-      ],
-      "closed_syllables": [
-        "lap",
-        "gom",
-        "jad",
-        "napkin"
-      ],
-      "stories": [
-        {
-          "title": "Notes",
-          "content": "General notes",
-          "date": "2024-03-01"
-        }
-      ]
-    }
-  ]
+    ]
 }
