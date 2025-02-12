@@ -321,3 +321,61 @@
 2025-02-11 16:05:25,451 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
 2025-02-11 16:05:25,454 INFO 127.0.0.1 - - [11/Feb/2025 16:05:25] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
 2025-02-11 16:05:25,483 INFO 127.0.0.1 - - [11/Feb/2025 16:05:25] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:08:29,741 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 16:08:29,741 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 16:08:29,742 INFO  * Restarting with stat
+2025-02-11 16:08:29,925 WARNING  * Debugger is active!
+2025-02-11 16:08:29,931 INFO  * Debugger PIN: 349-968-266
+2025-02-11 16:09:26,401 INFO 127.0.0.1 - - [11/Feb/2025 16:09:26] "GET / HTTP/1.1" 200 -
+2025-02-11 16:09:46,428 INFO User 1001 logged in.
+2025-02-11 16:09:46,430 INFO 127.0.0.1 - - [11/Feb/2025 16:09:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 16:09:46,440 INFO 127.0.0.1 - - [11/Feb/2025 16:09:46] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:10:03,318 INFO Story generated for user 1001 with theme 'hope'.
+2025-02-11 16:10:03,326 INFO 127.0.0.1 - - [11/Feb/2025 16:10:03] "POST /generate-story HTTP/1.1" 200 -
+2025-02-11 16:11:16,515 INFO 127.0.0.1 - - [11/Feb/2025 16:11:16] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:11:24,234 INFO User 1001 logged out.
+2025-02-11 16:11:24,236 INFO 127.0.0.1 - - [11/Feb/2025 16:11:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 16:11:24,246 INFO 127.0.0.1 - - [11/Feb/2025 16:11:24] "GET / HTTP/1.1" 200 -
+2025-02-11 16:11:29,591 INFO User 1001 logged in.
+2025-02-11 16:11:29,596 INFO 127.0.0.1 - - [11/Feb/2025 16:11:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 16:11:29,614 INFO 127.0.0.1 - - [11/Feb/2025 16:11:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 16:12:00,810 INFO Story generated for user 1001 with theme 'hope part 2'.
+2025-02-11 16:12:00,812 INFO 127.0.0.1 - - [11/Feb/2025 16:12:00] "POST /generate-story HTTP/1.1" 200 -
+2025-02-11 16:14:13,817 INFO 127.0.0.1 - - [11/Feb/2025 16:14:13] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 19:51:57,017 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 19:51:57,018 INFO [33mPress CTRL+C to quit[0m
+2025-02-11 19:51:57,018 INFO  * Restarting with stat
+2025-02-11 19:51:57,208 WARNING  * Debugger is active!
+2025-02-11 19:51:57,214 INFO  * Debugger PIN: 349-968-266
+2025-02-11 19:52:10,852 INFO User 1001 logged out.
+2025-02-11 19:52:10,852 INFO 127.0.0.1 - - [11/Feb/2025 19:52:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-11 19:52:10,860 INFO 127.0.0.1 - - [11/Feb/2025 19:52:10] "GET / HTTP/1.1" 200 -
+2025-02-11 19:52:29,424 INFO User 1001 logged in.
+2025-02-11 19:52:29,428 INFO 127.0.0.1 - - [11/Feb/2025 19:52:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-11 19:52:29,444 INFO 127.0.0.1 - - [11/Feb/2025 19:52:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 19:54:08,008 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-11 19:54:08,011 INFO 127.0.0.1 - - [11/Feb/2025 19:54:08] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-11 19:54:08,048 INFO 127.0.0.1 - - [11/Feb/2025 19:54:08] "GET /dashboard HTTP/1.1" 200 -
+2025-02-12 05:33:27,957 INFO User 1001 logged out.
+2025-02-12 05:33:27,979 INFO 127.0.0.1 - - [12/Feb/2025 05:33:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-12 05:33:28,018 INFO 127.0.0.1 - - [12/Feb/2025 05:33:28] "GET / HTTP/1.1" 200 -
+2025-02-12 05:33:35,525 INFO User 1001 logged in.
+2025-02-12 05:33:35,527 INFO 127.0.0.1 - - [12/Feb/2025 05:33:35] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-12 05:33:35,537 INFO 127.0.0.1 - - [12/Feb/2025 05:33:35] "GET /dashboard HTTP/1.1" 200 -
+2025-02-12 05:33:44,006 WARNING Disallowed words detected in theme: ['shit']
+2025-02-12 05:33:44,008 INFO 127.0.0.1 - - [12/Feb/2025 05:33:44] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-12 05:33:44,015 INFO 127.0.0.1 - - [12/Feb/2025 05:33:44] "GET /dashboard HTTP/1.1" 200 -
+2025-02-12 05:34:00,579 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-12 05:34:00,583 INFO 127.0.0.1 - - [12/Feb/2025 05:34:00] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-12 05:34:00,622 INFO 127.0.0.1 - - [12/Feb/2025 05:34:00] "GET /dashboard HTTP/1.1" 200 -
+2025-02-12 05:54:26,568 INFO User 1001 logged out.
+2025-02-12 05:54:26,571 INFO 127.0.0.1 - - [12/Feb/2025 05:54:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-12 05:54:26,589 INFO 127.0.0.1 - - [12/Feb/2025 05:54:26] "GET / HTTP/1.1" 200 -
+2025-02-12 05:54:31,249 INFO User 1001 logged in.
+2025-02-12 05:54:31,251 INFO 127.0.0.1 - - [12/Feb/2025 05:54:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-02-12 05:54:31,257 INFO 127.0.0.1 - - [12/Feb/2025 05:54:31] "GET /dashboard HTTP/1.1" 200 -
+2025-02-12 05:54:51,637 ERROR API call error: HTTPSConnectionPool(host='api.deepinfra.com', port=443): Read timed out. (read timeout=10)
+2025-02-12 05:54:51,641 INFO 127.0.0.1 - - [12/Feb/2025 05:54:51] "[32mPOST /generate-story HTTP/1.1[0m" 302 -
+2025-02-12 05:54:51,691 INFO 127.0.0.1 - - [12/Feb/2025 05:54:51] "GET /dashboard HTTP/1.1" 200 -

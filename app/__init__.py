@@ -12,12 +12,11 @@ def create_app():
     app.config.from_object(app_config)
     # ...
 
-    # Configure Redis as the storage backend for Flask-Limiter
-    # Ensure that Redis is running on localhost at port 6379.
+
     limiter = Limiter(
         app,
         key_func=get_remote_address,
-        storage_uri="redis://localhost:6379",  # Specify Redis as the storage backend
+        storage_uri="memory://",
         default_limits=[app_config.RATELIMIT_DEFAULT]
     )
 
