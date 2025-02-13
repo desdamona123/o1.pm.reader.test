@@ -1,10 +1,17 @@
 {
   "hosting": {
+    "site": "firestore999",
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "flask-app",
+          "region": "europe-west1"
+        }
+      }
     ]
   }
 }

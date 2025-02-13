@@ -10,7 +10,7 @@ class Config:
     MAX_STORY_WORDS = 300  # Hard limit to comply with PM-Level specification
 
     # Rate limiting
-    RATELIMIT_DEFAULT = "5 per minute"  # Example default limit
+    RATELIMIT_DEFAULT = "20 per minute"  # Example default limit
 
 class DevelopmentConfig(Config):
     DEBUG = True
